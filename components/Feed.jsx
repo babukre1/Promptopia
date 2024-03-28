@@ -69,7 +69,6 @@ const Feed = () => {
           required
           className="search_input peer"
         />
-        <p>{searchText}</p>
       </form>
       {searchText ? (
         <PromptCardList
